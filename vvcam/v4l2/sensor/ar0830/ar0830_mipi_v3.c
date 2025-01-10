@@ -278,7 +278,7 @@ static struct vvcam_mode_info_s par0830_mode_info[] = {
 
 };
 
-int ar0830_get_clk(struct ar0830 *sensor, void *clk)
+static int ar0830_get_clk(struct ar0830 *sensor, void *clk)
 {
 	struct vvcam_clk_s vvcam_clk;
 	int ret = 0;
